@@ -1,0 +1,306 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img,
+abbr {
+  border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul li {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+legend {
+  color: #000;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+select{
+  background: #fff;
+}
+
+.wrapper{
+  max-width: 700px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.letter-generator__top{
+  display: flex;
+  justify-content: center;
+}
+/****** ***** ***** SETTINGS FIELDS STYLES ***** ***** ***** *****/
+.letter-generator__content{
+  margin-top: 5px;
+}
+.letter-generator__inp{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px 20px;
+  border: 3px solid #000;
+  outline: none;
+}
+.letter-generator__main-items{
+  position: relative;
+  display: flex;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.letter-generator__item{
+  width: calc(25% - 5px);
+  margin: 10px 5px 0px 5px;
+  min-height: 50px;
+  background: #ccc;
+}
+/****** ***** ***** RESULT CONTENT STYLES ***** ***** ***** *****/
+.letter-generator__result{
+
+}
+.letter-generator__copy-btn{
+  width: calc(50% - 5px);
+  margin: 10px auto 10px auto;
+  min-height: 50px;
+  background: #ccc;
+}
+.letter-generator__result-text{
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 200px;
+  padding: 15px;
+  margin-bottom: 5px;
+  background: #ccc;
+}
+.letter-generator__select{
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  padding: 12px 20px;
+  border: 3px solid #000;
+  outline: none;
+}
+.letter-generator__item.animate{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #000;
+  background: #fff;
+}
+/****** ***** ***** CHECKBOX STYLES/ANIMATION ***** ***** ***** *****/
+
+  .checkbox-rect{
+    margin-left: 10px;
+    display: inline-block;
+  }
+  .checkbox-rect input[type="checkbox"] {
+      display: none;
+  }
+  .checkbox-rect input[type="checkbox"] + label {
+    vertical-align: center;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 20px;
+    font: 14px/20px "Open Sans", Arial, sans-serif;
+    cursor: pointer;
+  }
+  .checkbox-rect input[type="checkbox"] + label:last-child {
+    margin-bottom: 0;
+  }
+  .checkbox-rect input[type="checkbox"] + label:before {
+    content: "";
+    display: block;
+    width: 1em;
+    height: 1em;
+    border: 1px solid #000;
+    border-radius: 0.2em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.2s, background 0.2s ease-in-out;
+    background: #f3f3f3;
+  }
+  .checkbox-rect input[type="checkbox"]:checked + label:before {
+    width: .9em;
+    height: .9em;
+    border-radius: 0.2em;
+    border: 2px solid #fff;
+    transform: rotate(90deg);
+    background: #000;
+    box-shadow: 0 0 0 1px #000;
+  }
+  /****** ***** ***** ***** ***** ***** ***** ***** ***** *****/
+  .letter-generator__library{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    padding: 12px 20px;
+    border: 3px solid #000;
+    outline: none;
+  }
+.letter-generator__btn-gener{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    padding: 12px 12px;
+    border: 3px solid #000;
+    box-shadow: 0px 0px 7px #000;
+    outline: none;
+    font-weight: bold;
+    background: #fff;
+}
+/****** ***** ***** ***** ***** ***** ***** ***** ***** *****/
+.letter-generator__btn-copy{
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    padding: 15px 12px;
+    border: 3px solid #000;
+    outline: none;
+    font-weight: bold;
+    background: #fff;
+}
+/****** ***** ***** ***** ***** ***** ***** ***** ***** *****/
+.btn-disabled{
+  background: #767 !important;
+  pointer-events: none;
+}
+/****** ***** ***** ***** ***** ***** ***** ***** ***** *****/
+.letter-generator__item.settings{
+  position: absolute;
+  right: -56px;
+  top: 0;
+  width: 56px;
+  height: 56px;
+}
+.settings-img{
+  cursor: pointer;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.settings-img img{
+  height: 70%;
+  width: 70%;
+  animation: anim 25s infinite linear;
+  transition: .2s;
+}
+@keyframes anim{
+  to{
+    transform: rotate(360deg);
+  }
+}
+.settings-img:hover img{
+  height: 90%;
+  width: 90%;
+  transition: .1s;
+}
+.settings-blok{
+  display: none;
+  box-sizing: border-box;
+  border: 3px solid #000;
+  width: 100%;
+  background: #888;
+  text-align: center;
+}
+.settings-blok.showed{
+  display: block;
+  margin-top: 10px;
+}
+.settings-blok span{
+  color: #fff;
+  font-weight: bold;
+  line-height: 45px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Neriday & Alumuk Letters</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="icon" href="img/discord-emoji-generator-icon.png">
+</head>
+<body>
+	<div class="wrapper letter-generator">
+		<header class="letter-generator__top">
+			<img src="img/header_banner.png" alt="Neriday & Anumuk Presents">
+		</header>
+		<section class="letter-generator__content">
+			<div class="letter-generator__settings">
+				<input type="text" class="letter-generator__inp" placeholder="Enter your text here...">
+
+				<div class="letter-generator__main-items">
+					<div class="letter-generator__item language">
+					    <select class="letter-generator__select btn-disabled" name="language">
+					      <option value="eng">English</option>
+					      <option value="cyr">Cyrillic</option>
+					    </select>
+					</div>
+					<div class="letter-generator__item animate btn-disabled">
+				      <div class="checkbox-rect">
+				        <input type="checkbox" id="checkbox-rect1" name="check">
+				        <label for="checkbox-rect1">Animate</label>
+				      </div>
+					</div>
+					<div class="letter-generator__item library">
+					    <select class="letter-generator__library" name="library">
+					      <option value="org">DC Original</option>
+					      <option value="neri_alum">Neri & Alum</option>
+					    </select>
+					</div>
+					<div class="letter-generator__item generate">
+						<input class="letter-generator__btn-gener" type="button" value="GENERATE!">
+					</div>
+					<div class="letter-generator__item settings">
+						<div class="settings-img">
+							<img src="img/settings_icon.png" alt="Neriday & Anumuk Presents">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="settings-blok">
+				<span>MORE SETTINGS LATER! :)</span>
+			</div>
+			<div class="letter-generator__result">
+				<div class="letter-generator__copy-btn">
+					<input class="letter-generator__btn-copy btn-disabled" type="button" value="Copy The Result">
+				</div>
+				<div class="letter-generator__result-text"></div>
+			</div>
+		</section>
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
