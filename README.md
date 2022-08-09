@@ -21,6 +21,7 @@ And then you finally find the emojis you need
 - you click on some letter... and everything disappears. You can choose only one emoji letter at a time, if you want more, you need to repeat and repeat the actions described above all the time for one letter, so that little by little, like a turtle, you make the word you need, and what if you want to write a sentence? you will do it endlessly! That is why this generator was created. 
 
 <strong>it Looks like This:</strong>
+
 <img src="https://cdn.discordapp.com/attachments/891819752899629106/1006583620003180614/unknown.png">
 
 ***
@@ -65,6 +66,7 @@ There is also a separate "settings" button, it shows a separate settings panel (
 >To use all these settings, which are not included by default in discord, you have to remember to switch the "generator library"!<img src="https://cdn.discordapp.com/attachments/891819752899629106/1006640993711431720/unknown.png">
 
 >After changing the library, the settings buttons are unlocked<img src="https://cdn.discordapp.com/attachments/891819752899629106/1006641657409716374/unknown.png">
-(For now, these servers with our own emojis are private. There is no way to get there at the moment, in the future they will be public, but for now you can only use this generator for emoji letters that are included in Discord emoji by default.)
+
+>(For now, these servers with our own emojis are private. There is no way to get there at the moment, in the future they will be public, but for now you can only use this generator for emoji letters that are included in Discord emoji by default.)
 
 >This is it. Good luck using it !
